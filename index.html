@@ -117,7 +117,7 @@
       google.maps.event.addDomListener(window, 'load', init);
 
 
-      var url = '/cars.json';
+      var url = 'http://cloudps-test-cs.mongeo.ru/api/car/get-cars';
 
       function getCars(url) {
         return new Promise((resolve, reject) => {
